@@ -50,7 +50,7 @@
   cursor: pointer;
 }
 .navbar ul li a:hover {
-  color: aquamarine;
+  color: #f63c08;
   transition: color 0.3s ease;
 }
 .navbar ul li a {
@@ -98,6 +98,9 @@
   line-height: normal;
   margin-bottom: 30px;
 }
+.home-text h2 span{
+  color: #cb1717;
+}
 .home-text .socialicons {
   display: flex;
   gap: 30px;
@@ -105,11 +108,11 @@
   color: white;
 }
 .home-text .socialicons a {
-  color: white;
+  color: #cb1717;
   text-decoration: none;
 }
 .home-text .socialicons a:hover {
-  color: aquamarine;
+  color: #f8f5f5;
   transition: color 0.3s ease;
 }
 
