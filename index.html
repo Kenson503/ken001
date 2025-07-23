@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link
       href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
       rel="stylesheet"
@@ -35,10 +36,11 @@
           <ul>
             <li>
               <a href="#">Home</a>
-              <a href="#">Skills</a>
-              <a href="#">Contact</a>
-              <a href="#">About me</a>
-              <a href="#">Portfolio</a>
+              <a href="#about">About Me</a>
+              <a href="#skill">Skills</a>
+              <a href="#projects">Portfolio</a>
+              <a href="#contact">Contacts</a>
+              
             </li>
           </ul>
         </nav>
@@ -67,7 +69,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about">
+    <section id="about">
       <div class="about-col-1">
         <img
           src="images/pexels-ivan-garfias-893137719-20688807.jpg"
@@ -121,7 +123,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section class="skill">
+    <section id="skill">
       <h1>My Skills</h1>
 
       <div class="skill-container">
@@ -168,10 +170,199 @@
         </div>
       </div>
     </section>
-   
-   
+    <!-- skills progressbar-->
+    <section class="progressbar">
+    <div class="progressbar-container">
+
+        <div class="skills-container">
+          <h1 class="heading1">Technical skills</h1>
+          <div class="technical-bars">
+
+            <div class="bar">
+                 <i class="bi bi-filetype-html" style="color: #cb1717;"></i>
+              <div class="info">
+                <span>HTML</span>
+                <div class="progress">
+                  <div class="progress-bar" 
+                       role="progressbar"
+                       style="width: 90%"
+                       aria-valuenow="90"
+                       aria-valuemin="0"
+                       aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="bar">
+                 <i class="bi bi-filetype-css" style="color: #cb1717;"></i>
+              <div class="info">
+                <span>CSS</span>
+                <div class="progress">
+                  <div class="progress-bar" 
+                       role="progressbar"
+                       style="width: 80%"
+                       data-percent="80%"
+                       aria-valuenow="80"
+                       aria-valuemin="0"
+                       aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="bar">
+                 <i class="bi bi-filetype-js" style="color: #cb1717;"></i>
+              <div class="info">
+                <span>JavaScript</span>
+                <div class="progress">
+                  <div class="progress-bar" 
+                       role="progressbar"
+                       style="width: 90%"
+                       aria-valuenow="90"
+                       aria-valuemin="0"
+                       aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                      <div class="bar">
+                 <i class="bi bi-filetype-jsx" style="color: #cb1717;"></i>
+              <div class="info">
+                <span>React</span>
+                <div class="progress">
+                  <div class="progress-bar" 
+                       role="progressbar"
+                       style="width: 70%"
+                       aria-valuenow="70"
+                       aria-valuemin="0"
+                       aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+                      
+            
+            
+            <div class="bar">
+                 <i class="bi bi-filetype-py" style="color: #cb1717;"></i>
+              <div class="info">
+                <span>Python</span>
+                <div class="progress">
+                  <div class="progress-bar" 
+                       role="progressbar"
+                       style="width: 90%"
+                       aria-valuenow="90"
+                       aria-valuemin="0"
+                       aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="proskills-container">
+          <h1 class="heading1">Professional Skills</h1>
+          <div class="radial-container">
+            <!-- Creativity -->
+            <div class="radial-bars">
+              <svg>
+                <circle cx="70" cy="70" r="70" style="--percent: 90"></circle>
+                <circle
+                  class="path"
+                  cx="70"
+                  cy="70"
+                  r="70"
+                  style="--percent: 90"
+                ></circle>
+              </svg>
+              <div class="percentage">90%</div>
+              <div class="text">Creativity</div>
+            </div>
+
+            <!-- Communication -->
+            <div class="radial-bars">
+              <svg>
+                <circle cx="70" cy="70" r="70" style="--percent: 65"></circle>
+                <circle
+                  class="path"
+                  cx="70"
+                  cy="70"
+                  r="70"
+                  style="--percent: 65"
+                ></circle>
+              </svg>
+              <div class="percentage">65%</div>
+              <div class="text">Communication</div>
+            </div>
+
+            <!-- Problem Solving -->
+            <div class="radial-bars">
+              <svg>
+                <circle cx="70" cy="70" r="70" style="--percent: 75"></circle>
+                <circle
+                  class="path"
+                  cx="70"
+                  cy="70"
+                  r="70"
+                  style="--percent: 75"
+                ></circle>
+              </svg>
+              <div class="percentage">75%</div>
+              <div class="text">Problem Solving</div>
+            </div>
+
+            <!-- Teamwork -->
+            <div class="radial-bars">
+              <svg>
+                <circle cx="70" cy="70" r="70" style="--percent: 85"></circle>
+                <circle
+                  class="path"
+                  cx="70"
+                  cy="70"
+                  r="70"
+                  style="--percent: 85"
+                ></circle>
+              </svg>
+              <div class="percentage">85%</div>
+              <div class="text">Teamwork</div>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!--projects-->
-    <section class="projects">
+    <section id="projects">
       <h1>My Projects</h1>
 
       <div class="project-container">
@@ -217,6 +408,41 @@
         </div>
       </div>
     </section>
+
+    <div id="contact">
+        <div class="container">     
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <P><i class='bx bxs-send'></i>contact@example.com</P>
+                    <p> <i class='bx bxs-phone'></i> 0704071814</p>
+                    <p> <i class='bx bx-current-location'></i> Nairobi,Kenya</p>
+                    <div class="social-icons">
+                      
+                        <a href="https://www.instagram.com/kenson_503_muriithi?igsh=MXdnczdncHVleW14OA=="><i class='bx bxl-instagram'></i></a>
+                        <a href="https://x.com/swahili_sol?t=SoIZRIoeWnDEoOT-2GUgUw&s=09"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://github.com/Kenson503"><i class='bx bxl-github' ></i></a>
+                    </div>
+                    <a href="images/Kenson muriithi.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form action="server.php" method="post">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                        <input type="text" name="email" id="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6"  id="message" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@2025.</p>
+    </div>
 
     <script>
       var tablinks = document.getElementsByClassName("tab-links");
